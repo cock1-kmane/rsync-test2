@@ -1,9 +1,9 @@
 resources:
-    name: rsynctest2-image4
+  - name: rsynctest2-image4
+    type: manifest
     type: image
     integration: cock1-hub
     source:
       name: "shiphitchcock1/samplenod"
       isPull: false
       tag: latest
-      
